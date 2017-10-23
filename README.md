@@ -6,5 +6,3 @@ Repaso práctico de los conceptos teóricos, replicando la página de laboratori
 ## OBJETIVOS
 
 1)Afianzar los conocimientos teóricos de HTML y css.
-2)
-3)

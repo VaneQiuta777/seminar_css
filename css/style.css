@@ -12,6 +12,7 @@ body { /*setear nuestros archivos*/
 .box-header {
     display: inline-block;
 }
+/*clases específicas*/
 .logo-header{
     width: 200px;
 }
@@ -39,3 +40,31 @@ div {
     display: inline-block;
     width: 33%;
 }
+span {
+    font-size: 80px;
+}
+p {
+    font-size: 17px;
+}
+body section:last-child {
+    margin: 30px 60px 0px 40px ;
+
+}
+img[alt="laboratoria"] {
+   width: 120px;
+}
+button {
+    background-color: #f9a91a;
+    padding: 5px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight:600;
+}
+.box-header ul li {
+    margin: 0 15px;
+}
+span:hover,.box-header ul li:hover {
+    color: #f9a91a;
+}
+ 
