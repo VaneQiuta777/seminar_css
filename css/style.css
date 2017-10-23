@@ -1,0 +1,19 @@
+body {
+    font-family: monospace; /*especificidad 1 punto*/
+    color: green;
+}
+p{
+    color: green;
+}
+/*
+a:hover especificidad
+id (100)= 0
+clase (10) = 0
+etiqueta (1) = 0
+
+#banner : especificidad 100
+
+#banner .p : especificidad 110
+
+a.p : especificidad 11 
+*/
