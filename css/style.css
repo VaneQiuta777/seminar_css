@@ -1,19 +1,41 @@
-body {
-    font-family: monospace; /*especificidad 1 punto*/
-    color: green;
+body { /*setear nuestros archivos*/
+    box-sizing: border-box;
+    color: #303030;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-p{
-    color: green;
+/* clases reutilizables*/
+.text-uppercase {
+    text-transform: uppercase;
 }
-/*
-a:hover especificidad
-id (100)= 0
-clase (10) = 0
-etiqueta (1) = 0
-
-#banner : especificidad 100
-
-#banner .p : especificidad 110
-
-a.p : especificidad 11 
-*/
+.box-header {
+    display: inline-block;
+}
+.logo-header{
+    width: 200px;
+}
+li {
+    display: inline;
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    position: relative;
+}
+nav{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);/* que suba a la mitad*/
+}
+section {
+    text-align: center;
+}
+div {
+    display: inline-block;
+    width: 33%;
+}
